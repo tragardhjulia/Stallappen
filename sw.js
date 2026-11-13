@@ -1,6 +1,6 @@
 // Gör att appen startar snabbt och öppnas även utan uppkoppling (skalet, inte datan).
 // Uppgifter hämtas alltid färska från databasen och sparas aldrig här.
-const CACHE = 'stallappen-v1';
+const CACHE = 'stallappen-v2';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'xlsx.js', 'config.js', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
